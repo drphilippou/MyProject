@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAF5C2D41D078EF800DF2F7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF5C2D31D078EF800DF2F7E /* main.m */; };
+		DAF5C2D71D078EF800DF2F7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF5C2D61D078EF800DF2F7E /* AppDelegate.m */; };
+		DAF5C2DA1D078EF800DF2F7E /* StanfordClass.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DAF5C2D81D078EF800DF2F7E /* StanfordClass.xcdatamodeld */; };
+		DAF5C2DD1D078EF800DF2F7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF5C2DC1D078EF800DF2F7E /* ViewController.m */; };
+		DAF5C2E01D078EF800DF2F7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF5C2DE1D078EF800DF2F7E /* Main.storyboard */; };
+		DAF5C2E21D078EF800DF2F7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF5C2E11D078EF800DF2F7E /* Images.xcassets */; };
+		DAF5C2E51D078EF800DF2F7E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAF5C2E31D078EF800DF2F7E /* LaunchScreen.xib */; };
+		DAF5C2F11D078EF800DF2F7E /* StanfordClassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF5C2F01D078EF800DF2F7E /* StanfordClassTests.m */; };
+		DAF5C3041D08CEE900DF2F7E /* card.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF5C2FD1D08CEE900DF2F7E /* card.m */; };
+		DAF5C3051D08CEE900DF2F7E /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF5C2FF1D08CEE900DF2F7E /* Deck.m */; };
+		DAF5C3061D08CEE900DF2F7E /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF5C3011D08CEE900DF2F7E /* PlayingCard.m */; };
+		DAF5C3071D08CEE900DF2F7E /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF5C3031D08CEE900DF2F7E /* PlayingCardDeck.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAF5C2EB1D078EF800DF2F7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAF5C2C61D078EF800DF2F7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAF5C2CD1D078EF800DF2F7E;
+			remoteInfo = StanfordClass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAF5C2CE1D078EF800DF2F7E /* StanfordClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StanfordClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF5C2D21D078EF800DF2F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAF5C2D31D078EF800DF2F7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAF5C2D51D078EF800DF2F7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAF5C2D61D078EF800DF2F7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAF5C2D91D078EF800DF2F7E /* StanfordClass.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StanfordClass.xcdatamodel; sourceTree = "<group>"; };
+		DAF5C2DB1D078EF800DF2F7E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAF5C2DC1D078EF800DF2F7E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAF5C2DF1D078EF800DF2F7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAF5C2E11D078EF800DF2F7E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DAF5C2E41D078EF800DF2F7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DAF5C2EA1D078EF800DF2F7E /* StanfordClassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StanfordClassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF5C2EF1D078EF800DF2F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAF5C2F01D078EF800DF2F7E /* StanfordClassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StanfordClassTests.m; sourceTree = "<group>"; };
+		DAF5C2FC1D08CEE900DF2F7E /* card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = card.h; sourceTree = "<group>"; };
+		DAF5C2FD1D08CEE900DF2F7E /* card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = card.m; sourceTree = "<group>"; };
+		DAF5C2FE1D08CEE900DF2F7E /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		DAF5C2FF1D08CEE900DF2F7E /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		DAF5C3001D08CEE900DF2F7E /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		DAF5C3011D08CEE900DF2F7E /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		DAF5C3021D08CEE900DF2F7E /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		DAF5C3031D08CEE900DF2F7E /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAF5C2CB1D078EF800DF2F7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF5C2E71D078EF800DF2F7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAF5C2C51D078EF700DF2F7E = {
+			isa = PBXGroup;
+			children = (
+				DAF5C2D01D078EF800DF2F7E /* StanfordClass */,
+				DAF5C2ED1D078EF800DF2F7E /* StanfordClassTests */,
+				DAF5C2CF1D078EF800DF2F7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAF5C2CF1D078EF800DF2F7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAF5C2CE1D078EF800DF2F7E /* StanfordClass.app */,
+				DAF5C2EA1D078EF800DF2F7E /* StanfordClassTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAF5C2D01D078EF800DF2F7E /* StanfordClass */ = {
+			isa = PBXGroup;
+			children = (
+				DAF5C3091D08CF1E00DF2F7E /* Model */,
+				DAF5C2DB1D078EF800DF2F7E /* ViewController.h */,
+				DAF5C2DC1D078EF800DF2F7E /* ViewController.m */,
+				DAF5C2DE1D078EF800DF2F7E /* Main.storyboard */,
+				DAF5C2E11D078EF800DF2F7E /* Images.xcassets */,
+				DAF5C2E31D078EF800DF2F7E /* LaunchScreen.xib */,
+				DAF5C2D81D078EF800DF2F7E /* StanfordClass.xcdatamodeld */,
+				DAF5C2D11D078EF800DF2F7E /* Supporting Files */,
+			);
+			path = StanfordClass;
+			sourceTree = "<group>";
+		};
+		DAF5C2D11D078EF800DF2F7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAF5C2D51D078EF800DF2F7E /* AppDelegate.h */,
+				DAF5C2D61D078EF800DF2F7E /* AppDelegate.m */,
+				DAF5C2D21D078EF800DF2F7E /* Info.plist */,
+				DAF5C2D31D078EF800DF2F7E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAF5C2ED1D078EF800DF2F7E /* StanfordClassTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAF5C2F01D078EF800DF2F7E /* StanfordClassTests.m */,
+				DAF5C2EE1D078EF800DF2F7E /* Supporting Files */,
+			);
+			path = StanfordClassTests;
+			sourceTree = "<group>";
+		};
+		DAF5C2EE1D078EF800DF2F7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAF5C2EF1D078EF800DF2F7E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAF5C3091D08CF1E00DF2F7E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DAF5C2FC1D08CEE900DF2F7E /* card.h */,
+				DAF5C2FD1D08CEE900DF2F7E /* card.m */,
+				DAF5C2FE1D08CEE900DF2F7E /* Deck.h */,
+				DAF5C2FF1D08CEE900DF2F7E /* Deck.m */,
+				DAF5C3001D08CEE900DF2F7E /* PlayingCard.h */,
+				DAF5C3011D08CEE900DF2F7E /* PlayingCard.m */,
+				DAF5C3021D08CEE900DF2F7E /* PlayingCardDeck.h */,
+				DAF5C3031D08CEE900DF2F7E /* PlayingCardDeck.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAF5C2CD1D078EF800DF2F7E /* StanfordClass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF5C2F41D078EF800DF2F7E /* Build configuration list for PBXNativeTarget "StanfordClass" */;
+			buildPhases = (
+				DAF5C2CA1D078EF800DF2F7E /* Sources */,
+				DAF5C2CB1D078EF800DF2F7E /* Frameworks */,
+				DAF5C2CC1D078EF800DF2F7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StanfordClass;
+			productName = StanfordClass;
+			productReference = DAF5C2CE1D078EF800DF2F7E /* StanfordClass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAF5C2E91D078EF800DF2F7E /* StanfordClassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF5C2F71D078EF800DF2F7E /* Build configuration list for PBXNativeTarget "StanfordClassTests" */;
+			buildPhases = (
+				DAF5C2E61D078EF800DF2F7E /* Sources */,
+				DAF5C2E71D078EF800DF2F7E /* Frameworks */,
+				DAF5C2E81D078EF800DF2F7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAF5C2EC1D078EF800DF2F7E /* PBXTargetDependency */,
+			);
+			name = StanfordClassTests;
+			productName = StanfordClassTests;
+			productReference = DAF5C2EA1D078EF800DF2F7E /* StanfordClassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAF5C2C61D078EF800DF2F7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = IntelligentOhanaSolutions;
+				TargetAttributes = {
+					DAF5C2CD1D078EF800DF2F7E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DAF5C2E91D078EF800DF2F7E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = DAF5C2CD1D078EF800DF2F7E;
+					};
+				};
+			};
+			buildConfigurationList = DAF5C2C91D078EF800DF2F7E /* Build configuration list for PBXProject "StanfordClass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAF5C2C51D078EF700DF2F7E;
+			productRefGroup = DAF5C2CF1D078EF800DF2F7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAF5C2CD1D078EF800DF2F7E /* StanfordClass */,
+				DAF5C2E91D078EF800DF2F7E /* StanfordClassTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAF5C2CC1D078EF800DF2F7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF5C2E01D078EF800DF2F7E /* Main.storyboard in Resources */,
+				DAF5C2E51D078EF800DF2F7E /* LaunchScreen.xib in Resources */,
+				DAF5C2E21D078EF800DF2F7E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF5C2E81D078EF800DF2F7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAF5C2CA1D078EF800DF2F7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF5C3041D08CEE900DF2F7E /* card.m in Sources */,
+				DAF5C3071D08CEE900DF2F7E /* PlayingCardDeck.m in Sources */,
+				DAF5C2D71D078EF800DF2F7E /* AppDelegate.m in Sources */,
+				DAF5C3061D08CEE900DF2F7E /* PlayingCard.m in Sources */,
+				DAF5C2DA1D078EF800DF2F7E /* StanfordClass.xcdatamodeld in Sources */,
+				DAF5C2DD1D078EF800DF2F7E /* ViewController.m in Sources */,
+				DAF5C3051D08CEE900DF2F7E /* Deck.m in Sources */,
+				DAF5C2D41D078EF800DF2F7E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF5C2E61D078EF800DF2F7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF5C2F11D078EF800DF2F7E /* StanfordClassTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAF5C2EC1D078EF800DF2F7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAF5C2CD1D078EF800DF2F7E /* StanfordClass */;
+			targetProxy = DAF5C2EB1D078EF800DF2F7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAF5C2DE1D078EF800DF2F7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAF5C2DF1D078EF800DF2F7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAF5C2E31D078EF800DF2F7E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAF5C2E41D078EF800DF2F7E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAF5C2F21D078EF800DF2F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAF5C2F31D078EF800DF2F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAF5C2F51D078EF800DF2F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StanfordClass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAF5C2F61D078EF800DF2F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StanfordClass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAF5C2F81D078EF800DF2F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StanfordClassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StanfordClass.app/StanfordClass";
+			};
+			name = Debug;
+		};
+		DAF5C2F91D078EF800DF2F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = StanfordClassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StanfordClass.app/StanfordClass";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAF5C2C91D078EF800DF2F7E /* Build configuration list for PBXProject "StanfordClass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF5C2F21D078EF800DF2F7E /* Debug */,
+				DAF5C2F31D078EF800DF2F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF5C2F41D078EF800DF2F7E /* Build configuration list for PBXNativeTarget "StanfordClass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF5C2F51D078EF800DF2F7E /* Debug */,
+				DAF5C2F61D078EF800DF2F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAF5C2F71D078EF800DF2F7E /* Build configuration list for PBXNativeTarget "StanfordClassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF5C2F81D078EF800DF2F7E /* Debug */,
+				DAF5C2F91D078EF800DF2F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DAF5C2D81D078EF800DF2F7E /* StanfordClass.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DAF5C2D91D078EF800DF2F7E /* StanfordClass.xcdatamodel */,
+			);
+			currentVersion = DAF5C2D91D078EF800DF2F7E /* StanfordClass.xcdatamodel */;
+			path = StanfordClass.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DAF5C2C61D078EF800DF2F7E /* Project object */;
+}
