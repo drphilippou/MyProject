@@ -1,0 +1,1061 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA00A6E919B586E100EDD2B3 /* OBRStopDetailTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DA00A6E819B586E100EDD2B3 /* OBRStopDetailTVC.m */; };
+		DA01B4DC1A1062EE00EC8267 /* OBRScheduleNew.m in Sources */ = {isa = PBXBuildFile; fileRef = DA01B4DB1A1062EE00EC8267 /* OBRScheduleNew.m */; };
+		DA046AC91A0C802F00A71CE8 /* BusStopButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DA046AC81A0C802F00A71CE8 /* BusStopButton.png */; };
+		DA051D7B19A00BA20059B901 /* stopRouteDict.json in Resources */ = {isa = PBXBuildFile; fileRef = DA051D7A19A00BA20059B901 /* stopRouteDict.json */; };
+		DA06B6D71A0A0A5F006E4297 /* Circle.png in Resources */ = {isa = PBXBuildFile; fileRef = DA06B6D61A0A0A5F006E4297 /* Circle.png */; };
+		DA07735419C3B06900CA555C /* DataHollow.png in Resources */ = {isa = PBXBuildFile; fileRef = DA07735319C3B06900CA555C /* DataHollow.png */; };
+		DA0B80F01A799A77007FAC91 /* store.data in Resources */ = {isa = PBXBuildFile; fileRef = DA0B80EF1A799A77007FAC91 /* store.data */; };
+		DA0BFDD719CA687E00FED07B /* bwarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = DA0BFDD619CA687E00FED07B /* bwarrow.png */; };
+		DA0D0EC719D6129C00781D65 /* CombinedRoutes.txt in Resources */ = {isa = PBXBuildFile; fileRef = DA0D0EC619D6129C00781D65 /* CombinedRoutes.txt */; };
+		DA0D90B019836088004276FE /* redarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = DA0D90AF19836088004276FE /* redarrow.png */; };
+		DA1004A818A9993E00675AB0 /* OBRRouteView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1004A718A9993E00675AB0 /* OBRRouteView.m */; };
+		DA114E6C18A41BF400022089 /* OBRVehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = DA114E6B18A41BF400022089 /* OBRVehicle.m */; };
+		DA115B6F19FC7ADC00A594B5 /* HollowCrossHairs.png in Resources */ = {isa = PBXBuildFile; fileRef = DA115B6E19FC7ADC00A594B5 /* HollowCrossHairs.png */; };
+		DA115B7119FC8DE100A594B5 /* RoundedRectNoBorder.png in Resources */ = {isa = PBXBuildFile; fileRef = DA115B7019FC8DE100A594B5 /* RoundedRectNoBorder.png */; };
+		DA122D8E1A26CB6E0084FA20 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA122D8D1A26CB6E0084FA20 /* Launch Screen.xib */; };
+		DA13766C1A0F4DF200F3B5F6 /* OBRBuildDatabaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DA13766B1A0F4DF200F3B5F6 /* OBRBuildDatabaseVC.m */; };
+		DA15201119EDD359009938B7 /* appimage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA15201019EDD359009938B7 /* appimage@2x.png */; };
+		DA1B2F0C19C93EBF008048E6 /* greenFlag.png in Resources */ = {isa = PBXBuildFile; fileRef = DA1B2F0B19C93EBF008048E6 /* greenFlag.png */; };
+		DA1B5EF818A9795B00A7C3F0 /* OBRRoutePoints.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1B5EF718A9795B00A7C3F0 /* OBRRoutePoints.m */; };
+		DA1D76C91A0C023000B2BB57 /* BusButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DA1D76C81A0C023000B2BB57 /* BusButton.png */; };
+		DA1DF98B190309AB001D0042 /* MyCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA1DF98A190309AB001D0042 /* MyCustomCell.xib */; };
+		DA1DF98E19030AB1001D0042 /* MyCustomCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1DF98D19030AB1001D0042 /* MyCustomCellTableViewCell.m */; };
+		DA1EDD0C19BBEBD400239CBF /* Green Checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = DA1EDD0B19BBEBD400239CBF /* Green Checkmark.png */; };
+		DA2042FA18A301CF00C46A77 /* OBRarrivalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2042F918A301CF00C46A77 /* OBRarrivalRecord.m */; };
+		DA26B7CD19DA312C006BD3AE /* HollowFlag.png in Resources */ = {isa = PBXBuildFile; fileRef = DA26B7CC19DA312C006BD3AE /* HollowFlag.png */; };
+		DA2A1A0317FBA65F00DB5607 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA2A1A0217FBA65F00DB5607 /* Foundation.framework */; };
+		DA2A1A0517FBA65F00DB5607 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA2A1A0417FBA65F00DB5607 /* CoreGraphics.framework */; };
+		DA2A1A0717FBA65F00DB5607 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA2A1A0617FBA65F00DB5607 /* UIKit.framework */; };
+		DA2A1A0D17FBA65F00DB5607 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA2A1A0B17FBA65F00DB5607 /* InfoPlist.strings */; };
+		DA2A1A0F17FBA65F00DB5607 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2A1A0E17FBA65F00DB5607 /* main.m */; };
+		DA2A1A1317FBA65F00DB5607 /* OBRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2A1A1217FBA65F00DB5607 /* OBRAppDelegate.m */; };
+		DA2A1A1617FBA65F00DB5607 /* Main3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2A1A1417FBA65F00DB5607 /* Main3.storyboard */; };
+		DA2A1A1917FBA65F00DB5607 /* OBRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2A1A1817FBA65F00DB5607 /* OBRViewController.m */; };
+		DA2A1A1B17FBA65F00DB5607 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA2A1A1A17FBA65F00DB5607 /* Images.xcassets */; };
+		DA2A1A2217FBA65F00DB5607 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA2A1A2117FBA65F00DB5607 /* XCTest.framework */; };
+		DA2A1A2317FBA65F00DB5607 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA2A1A0217FBA65F00DB5607 /* Foundation.framework */; };
+		DA2A1A2417FBA65F00DB5607 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA2A1A0617FBA65F00DB5607 /* UIKit.framework */; };
+		DA2A1A2C17FBA65F00DB5607 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA2A1A2A17FBA65F00DB5607 /* InfoPlist.strings */; };
+		DA2A1A2E17FBA65F00DB5607 /* OahuBusRoutesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2A1A2D17FBA65F00DB5607 /* OahuBusRoutesTests.m */; };
+		DA2A1A3917FBA6A200DB5607 /* OBRBusStop.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2A1A3817FBA6A200DB5607 /* OBRBusStop.m */; };
+		DA2A1A3C17FD5A4800DB5607 /* OBRBusRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2A1A3B17FD5A4800DB5607 /* OBRBusRoute.m */; };
+		DA2D66C219EBBAF600B26EF5 /* AtoBWide.png in Resources */ = {isa = PBXBuildFile; fileRef = DA2D66C119EBBAF600B26EF5 /* AtoBWide.png */; };
+		DA30E64519CBB18B00E3F461 /* palette.m in Sources */ = {isa = PBXBuildFile; fileRef = DA30E64419CBB18B00E3F461 /* palette.m */; };
+		DA39557919F4D9AD0061412A /* OBRRouteOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = DA39557819F4D9AD0061412A /* OBRRouteOverlay.m */; };
+		DA39557C19F4E1BA0061412A /* IOSTimeFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = DA39557B19F4E1BA0061412A /* IOSTimeFunctions.m */; };
+		DA3E6D41191AFB3F0045B01F /* OBRTimestampTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3E6D3F191AFB3F0045B01F /* OBRTimestampTVCell.m */; };
+		DA3E6D42191AFB3F0045B01F /* OBRTimestampTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA3E6D40191AFB3F0045B01F /* OBRTimestampTVCell.xib */; };
+		DA3E6D44191B19980045B01F /* Bus Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DA3E6D43191B19980045B01F /* Bus Icon.png */; };
+		DA3EAC11190CB0DC00E16D33 /* OBRStopDescriptionTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3EAC0F190CB0DC00E16D33 /* OBRStopDescriptionTVCell.m */; };
+		DA3EAC12190CB0DC00E16D33 /* OBRStopDescriptionTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA3EAC10190CB0DC00E16D33 /* OBRStopDescriptionTVCell.xib */; };
+		DA3EAC16190CDEFB00E16D33 /* OBRBusDescriptionTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3EAC14190CDEFB00E16D33 /* OBRBusDescriptionTVCell.m */; };
+		DA3EAC17190CDEFB00E16D33 /* OBRBusDescriptionTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA3EAC15190CDEFB00E16D33 /* OBRBusDescriptionTVCell.xib */; };
+		DA487E3D196910C80038E8EA /* OBRGuidanceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DA487E3C196910C80038E8EA /* OBRGuidanceVC.m */; };
+		DA53CFC1190AD85E00305220 /* NavIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DA53CFC0190AD85E00305220 /* NavIcon.png */; };
+		DA56E6FB1A16FDAF00E70158 /* POI.m in Sources */ = {isa = PBXBuildFile; fileRef = DA56E6FA1A16FDAF00E70158 /* POI.m */; };
+		DA56E6FE1A16FDAF00E70158 /* OBRNode.m in Sources */ = {isa = PBXBuildFile; fileRef = DA56E6FD1A16FDAF00E70158 /* OBRNode.m */; };
+		DA6122CC19C392AF00E938CF /* waitIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DA6122CB19C392AF00E938CF /* waitIcon.png */; };
+		DA6122CE19C3A80300E938CF /* walkIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = DA6122CD19C3A80300E938CF /* walkIcon2.png */; };
+		DA65296E1907328F00C3315A /* OBRprefVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DA65296D1907328F00C3315A /* OBRprefVC.m */; };
+		DA659FB118DB79F50019219C /* OBRoverlayInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DA659FB018DB79F50019219C /* OBRoverlayInfo.m */; };
+		DA6A055D18F9D1A900651406 /* OBRRouteListTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6A055C18F9D1A900651406 /* OBRRouteListTVC.m */; };
+		DA6A056018F9D3EB00651406 /* OBRRouteListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6A055F18F9D3EB00651406 /* OBRRouteListVC.m */; };
+		DA6B79D11910C539009BBCAB /* OBRmapDetailTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6B79CF1910C539009BBCAB /* OBRmapDetailTVCell.m */; };
+		DA6B79D21910C539009BBCAB /* OBRmapDetailTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA6B79D01910C539009BBCAB /* OBRmapDetailTVCell.xib */; };
+		DA6F9DB71A0EA2CD00C93C46 /* OBRSearchTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6F9DB61A0EA2CD00C93C46 /* OBRSearchTVC.m */; };
+		DA706E9918E11E9E003A8BD7 /* OBRsolvedRouteRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = DA706E9818E11E9E003A8BD7 /* OBRsolvedRouteRecord.m */; };
+		DA70B53618B09795003BA11B /* OBRFinalProcessingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DA70B53518B09795003BA11B /* OBRFinalProcessingVC.m */; };
+		DA77DAAB19E8E2A50066828F /* prevIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DA77DAAA19E8E2A50066828F /* prevIcon.png */; };
+		DA77DAAD19E8E2AB0066828F /* nextIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DA77DAAC19E8E2AB0066828F /* nextIcon.png */; };
+		DA7A76D918A58FE900052A89 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA7A76D818A58FE900052A89 /* MapKit.framework */; };
+		DA7A76DF18A597EC00052A89 /* OBRMapViewAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7A76DE18A597EC00052A89 /* OBRMapViewAnnotation.m */; };
+		DA7C81DB19DF851500536321 /* IOSImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7C81DA19DF851500536321 /* IOSImage.m */; };
+		DA7C81DE19DF8A5D00536321 /* IOSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7C81DD19DF8A5D00536321 /* IOSLabel.m */; };
+		DA804FB819DF26FF00A28F4A /* squareTextBubble.png in Resources */ = {isa = PBXBuildFile; fileRef = DA804FB719DF26FF00A28F4A /* squareTextBubble.png */; };
+		DA804FBA19DF34E400A28F4A /* roundedRect1.png in Resources */ = {isa = PBXBuildFile; fileRef = DA804FB919DF34E400A28F4A /* roundedRect1.png */; };
+		DA844F2118A33DC200A73BB7 /* OBRdataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = DA844F2018A33DC200A73BB7 /* OBRdataStore.m */; };
+		DA844F2418A343A000A73BB7 /* OBRdatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA844F2218A343A000A73BB7 /* OBRdatabase.xcdatamodeld */; };
+		DA844F2918A3471D00A73BB7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA844F2818A3471D00A73BB7 /* CoreData.framework */; };
+		DA84FC1C18EFC00A00945B21 /* connectingStopsReorgJson.zip in Resources */ = {isa = PBXBuildFile; fileRef = DA84FC1B18EFC00A00945B21 /* connectingStopsReorgJson.zip */; };
+		DA84FC1E18EFFB7D00945B21 /* connectingStopsReorg.json in Resources */ = {isa = PBXBuildFile; fileRef = DA84FC1D18EFFB7D00945B21 /* connectingStopsReorg.json */; };
+		DA870C8919DB3D73005E9263 /* OBRsolvingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DA870C8819DB3D73005E9263 /* OBRsolvingVC.m */; };
+		DA8BB26E19A533730060AA25 /* routeRouteRoute.txt in Resources */ = {isa = PBXBuildFile; fileRef = DA8BB26D19A533730060AA25 /* routeRouteRoute.txt */; };
+		DA8BB27019A533890060AA25 /* routeWalkRoute.txt in Resources */ = {isa = PBXBuildFile; fileRef = DA8BB26F19A533890060AA25 /* routeWalkRoute.txt */; };
+		DA8BB27219A533900060AA25 /* jointStops.txt in Resources */ = {isa = PBXBuildFile; fileRef = DA8BB27119A533900060AA25 /* jointStops.txt */; };
+		DA8E926518D993F8007D3A6E /* BusStopSign.png in Resources */ = {isa = PBXBuildFile; fileRef = DA8E926418D993F8007D3A6E /* BusStopSign.png */; };
+		DA8EEC8919AFDBD700778547 /* Data.png in Resources */ = {isa = PBXBuildFile; fileRef = DA8EEC8819AFDBD700778547 /* Data.png */; };
+		DA908E2819EDCA5900B72CA7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA908E2719EDCA5900B72CA7 /* Default@2x.png */; };
+		DA90F94318C31F7200EF6629 /* Stops.txt in Resources */ = {isa = PBXBuildFile; fileRef = DA90F94218C31F7200EF6629 /* Stops.txt */; };
+		DA95517A1A12D83C00D96036 /* OBRStopNew.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9551791A12D83C00D96036 /* OBRStopNew.m */; };
+		DA95517D1A12D83D00D96036 /* OBRTrip.m in Sources */ = {isa = PBXBuildFile; fileRef = DA95517C1A12D83D00D96036 /* OBRTrip.m */; };
+		DA9FC79918F0DB2300FCB270 /* bluearrownew.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9FC79818F0DB2300FCB270 /* bluearrownew.png */; };
+		DA9FC79B18F0DC1B00FCB270 /* bluearrowsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = DA9FC79A18F0DC1B00FCB270 /* bluearrowsmall.png */; };
+		DAA9047418D6E34100ADBAD3 /* purpledotsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA9047318D6E34100ADBAD3 /* purpledotsmall.png */; };
+		DAA9D33118A71973006CA615 /* OBRArrival.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9D33018A71973006CA615 /* OBRArrival.m */; };
+		DAAE1F8018EBD2F5004DDE46 /* routesIndexedByStop.json in Resources */ = {isa = PBXBuildFile; fileRef = DAAE1F7F18EBD2F5004DDE46 /* routesIndexedByStop.json */; };
+		DABCBB7719E511D70050B199 /* OBRRouteDetailListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DABCBB7619E511D70050B199 /* OBRRouteDetailListVC.m */; };
+		DABD1D3C1A6F072A003F03AA /* OBRStopDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DABD1D3B1A6F072A003F03AA /* OBRStopDetailVC.m */; };
+		DABD490F19A884BE002FDFA5 /* Route.png in Resources */ = {isa = PBXBuildFile; fileRef = DABD490E19A884BE002FDFA5 /* Route.png */; };
+		DACA3C5318ADDDC200BD22B2 /* OBRalgPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = DACA3C5218ADDDC200BD22B2 /* OBRalgPoint.m */; };
+		DAD170EB18DD846E00BAF7D2 /* OBRsolverView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD170EA18DD846E00BAF7D2 /* OBRsolverView.m */; };
+		DAD3479C1A00CF3B003F7688 /* SearchButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD3479B1A00CF3B003F7688 /* SearchButton.png */; };
+		DAD3479E1A00CF45003F7688 /* TrackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD3479D1A00CF45003F7688 /* TrackButton.png */; };
+		DAD347A01A00EB2A003F7688 /* TimeTable.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD3479F1A00EB2A003F7688 /* TimeTable.png */; };
+		DAD6612C19EA589E00A031F2 /* Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD6612B19EA589E00A031F2 /* Menu.png */; };
+		DAD6612E19EA58A300A031F2 /* Directions.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD6612D19EA58A300A031F2 /* Directions.png */; };
+		DAD6613019EA58AC00A031F2 /* Prefs.png in Resources */ = {isa = PBXBuildFile; fileRef = DAD6612F19EA58AC00A031F2 /* Prefs.png */; };
+		DADF9BB81A732E6C0050C0C2 /* Schedules.txt in Resources */ = {isa = PBXBuildFile; fileRef = DADF9BB71A732E6C0050C0C2 /* Schedules.txt */; };
+		DAEF8B4C198F6DDA00369286 /* OBRscheduleFile.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEF8B4B198F6DDA00369286 /* OBRscheduleFile.m */; };
+		DAF285DD19358D6D00ACE2CB /* OBRwalkTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF285DB19358D6D00ACE2CB /* OBRwalkTVCell.m */; };
+		DAF285DE19358D6D00ACE2CB /* OBRwalkTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAF285DC19358D6D00ACE2CB /* OBRwalkTVCell.xib */; };
+		DAF285E01935C85000ACE2CB /* walkicon.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF285DF1935C85000ACE2CB /* walkicon.png */; };
+		DAF4CB6E1A3A32FE00E43D14 /* TrashIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF4CB6D1A3A32FE00E43D14 /* TrashIcon.png */; };
+		DAF69D4A1987469500473DB4 /* yellowarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF69D491987469500473DB4 /* yellowarrow.png */; };
+		DAF69D4C198746A600473DB4 /* greenarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF69D4B198746A600473DB4 /* greenarrow.png */; };
+		DAF69D4E19874D0F00473DB4 /* yellowarrow2.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF69D4D19874D0F00473DB4 /* yellowarrow2.png */; };
+		DAF69D541987528B00473DB4 /* yellowarrow3.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF69D531987528B00473DB4 /* yellowarrow3.png */; };
+		DAF69D561987529900473DB4 /* greenarrow4.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF69D551987529900473DB4 /* greenarrow4.png */; };
+		DAF69D58198752A700473DB4 /* redarrow5.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF69D57198752A700473DB4 /* redarrow5.png */; };
+		DAFA550E1A01E8C000E8F20E /* OSMHawaiiData.json in Resources */ = {isa = PBXBuildFile; fileRef = DAFA550D1A01E8C000E8F20E /* OSMHawaiiData.json */; };
+		DAFCBBEB1A10142D00C86978 /* Search.png in Resources */ = {isa = PBXBuildFile; fileRef = DAFCBBEA1A10142D00C86978 /* Search.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA2A1A2517FBA65F00DB5607 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA2A19F717FBA65F00DB5607 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA2A19FE17FBA65F00DB5607;
+			remoteInfo = OahuBusRoutes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA00A6E719B586E100EDD2B3 /* OBRStopDetailTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBRStopDetailTVC.h; sourceTree = "<group>"; };
+		DA00A6E819B586E100EDD2B3 /* OBRStopDetailTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBRStopDetailTVC.m; sourceTree = "<group>"; };
+		DA01B4DA1A1062EE00EC8267 /* OBRScheduleNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBRScheduleNew.h; sourceTree = "<group>"; };
+		DA01B4DB1A1062EE00EC8267 /* OBRScheduleNew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBRScheduleNew.m; sourceTree = "<group>"; };
+		DA046AC81A0C802F00A71CE8 /* BusStopButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BusStopButton.png; sourceTree = "<group>"; };
+		DA051D7A19A00BA20059B901 /* stopRouteDict.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stopRouteDict.json; sourceTree = "<group>"; };
+		DA06B6D61A0A0A5F006E4297 /* Circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Circle.png; sourceTree = "<group>"; };
+		DA07735319C3B06900CA555C /* DataHollow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DataHollow.png; path = ../DataHollow.png; sourceTree = "<group>"; };
+		DA0B80EF1A799A77007FAC91 /* store.data */ = {isa = PBXFileReference; lastKnownFileType = file; path = store.data; sourceTree = "<group>"; };
+		DA0BFDD619CA687E00FED07B /* bwarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bwarrow.png; sourceTree = "<group>"; };
+		DA0D0EC619D6129C00781D65 /* CombinedRoutes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CombinedRoutes.txt; sourceTree = "<group>"; };
+		DA0D90AF19836088004276FE /* redarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redarrow.png; path = ../redarrow.png; sourceTree = "<group>"; };
+		DA1004A618A9993E00675AB0 /* OBRRouteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBRRouteView.h; path = OahuBusRoutes/OBRRouteView.h; sourceTree = "<group>"; };
+		DA1004A718A9993E00675AB0 /* OBRRouteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OBRRouteView.m; path = OahuBusRoutes/OBRRouteView.m; sourceTree = "<group>"; };
+		DA114E6A18A41BF400022089 /* OBRVehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBRVehicle.h; path = OahuBusRoutes/OBRVehicle.h; sourceTree = "<group>"; };
+		DA114E6B18A41BF400022089 /* OBRVehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OBRVehicle.m; path = OahuBusRoutes/OBRVehicle.m; sourceTree = "<group>"; };
+		DA115B6C19FC7AD200A594B5 /* HollowFlag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HollowFlag.png; sourceTree = "<group>"; };
+		DA115B6E19FC7ADC00A594B5 /* HollowCrossHairs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HollowCrossHairs.png; sourceTree = "<group>"; };
+		DA115B7019FC8DE100A594B5 /* RoundedRectNoBorder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RoundedRectNoBorder.png; sourceTree = "<group>"; };
+		DA122D8D1A26CB6E0084FA20 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+		DA13766A1A0F4DF200F3B5F6 /* OBRBuildDatabaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBRBuildDatabaseVC.h; sourceTree = "<group>"; };
+		DA13766B1A0F4DF200F3B5F6 /* OBRBuildDatabaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBRBuildDatabaseVC.m; sourceTree = "<group>"; };
+		DA15201019EDD359009938B7 /* appimage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appimage@2x.png"; sourceTree = "<group>"; };
+		DA1B2F0B19C93EBF008048E6 /* greenFlag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenFlag.png; sourceTree = "<group>"; };
+		DA1B5EF618A9795B00A7C3F0 /* OBRRoutePoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBRRoutePoints.h; sourceTree = "<group>"; };
+		DA1B5EF718A9795B00A7C3F0 /* OBRRoutePoints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBRRoutePoints.m; sourceTree = "<group>"; };
+		DA1D76C81A0C023000B2BB57 /* BusButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BusButton.png; sourceTree = "<group>"; };
+		DA1DF98A190309AB001D0042 /* MyCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCustomCell.xib; sourceTree = "<group>"; };
+		DA1DF98C19030AB1001D0042 /* MyCustomCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomCellTableViewCell.h; sourceTree = "<group>"; };
+		DA1DF98D19030AB1001D0042 /* MyCustomCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomCellTableViewCell.m; sourceTree = "<group>"; };
+		DA1EDD0B19BBEBD400239CBF /* Green Checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Green Checkmark.png"; path = "../Green Checkmark.png"; sourceTree = "<group>"; };
+		DA2042F818A301CF00C46A77 /* OBRarrivalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBRarrivalRecord.h; sourceTree = "<group>"; };
+		DA2042F918A301CF00C46A77 /* OBRarrivalRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBRarrivalRecord.m; sourceTree = "<group>"; };
+		DA26B7CA19DA2EA6006BD3AE /* HollowCrossHairs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HollowCrossHairs.png; sourceTree = "<group>"; };
+		DA26B7CC19DA312C006BD3AE /* HollowFlag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HollowFlag.png; sourceTree = "<group>"; };
+		DA2A19FF17FBA65F00DB5607 /* OahuBusRoutes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OahuBusRoutes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA2A1A0217FBA65F00DB5607 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA2A1A0417FBA65F00DB5607 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DA2A1A0617FBA65F00DB5607 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DA2A1A0A17FBA65F00DB5607 /* OahuBusRoutes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OahuBusRoutes-Info.plist"; sourceTree = "<group>"; };
+		DA2A1A0C17FBA65F00DB5607 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA2A1A0E17FBA65F00DB5607 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA2A1A1017FBA65F00DB5607 /* OahuBusRoutes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OahuBusRoutes-Prefix.pch"; sourceTree = "<group>"; };
+		DA2A1A1117FBA65F00DB5607 /* OBRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OBRAppDelegate.h; sourceTree = "<group>"; };
+		DA2A1A1217FBA65F00DB5607 /* OBRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OBRAppDelegate.m; sourceTree = "<group>"; };
+		DA2A1A1517FBA65F00DB5607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main3.storyboard; sourceTree = "<group>"; };
+		DA2A1A1717FBA65F00DB5607 /* OBRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OBRViewController.h; path = OahuBusRoutes/OBRViewController.h; sourceTree = "<group>"; };
+		DA2A1A1817FBA65F00DB5607 /* OBRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = OBRViewController.m; path = OahuBusRoutes/OBRViewController.m; sourceTree = "<group>"; };
+		DA2A1A1A17FBA65F00DB5607 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images.xcassets; sourceTree = "<group>"; };
+		DA2A1A2017FBA65F00DB5607 /* OahuBusRoutesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OahuBusRoutesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA2A1A2117FBA65F00DB5607 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DA2A1A2917FBA65F00DB5607 /* OahuBusRoutesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OahuBusRoutesTests-Info.plist"; sourceTree = "<group>"; };
+		DA2A1A2B17FBA65F00DB5607 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA2A1A2D17FBA65F00DB5607 /* OahuBusRoutesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OahuBusRoutesTests.m; sourceTree = "<group>"; };
+		DA2A1A3717FBA6A200DB5607 /* OBRBusStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBRBusStop.h; sourceTree = "<group>"; };
+		DA2A1A3817FBA6A200DB5607 /* OBRBusStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBRBusStop.m; sourceTree = "<group>"; };
+		DA2A1A3A17FD5A4800DB5607 /* OBRBusRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBRBusRoute.h; sourceTree = "<group>"; };
+		DA2A1A3B17FD5A4800DB5607 /* OBRBusRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBRBusRoute.m; sourceTree = "<group>"; };
+		DA2D66C119EBBAF600B26EF5 /* AtoBWide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AtoBWide.png; sourceTree = "<group>"; };
+		DA30E64319CBB18B00E3F461 /* palette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = palette.h; sourceTree = "<group>"; };
+		DA30E64419CBB18B00E3F461 /* palette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = palette.m; sourceTree = "<group>"; };
+		DA39557719F4D9AD0061412A /* OBRRouteOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBRRouteOverlay.h; sourceTree = "<group>"; };
+		DA39557819F4D9AD0061412A /* OBRRouteOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBRRouteOverlay.m; sourceTree = "<group>"; };
+		DA39557A19F4E1BA0061412A /* IOSTimeFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSTimeFunctions.h; sourceTree = "<group>"; };
+		DA39557B19F4E1BA0061412A /* IOSTimeFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOSTimeFunctions.m; sourceTree = "<group>"; };
+		DA3E6D3E191AFB3F0045B01F /* OBRTimestampTVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBRTimestampTVCell.h; sourceTree = "<group>"; };
+		DA3E6D3F191AFB3F0045B01F /* OBRTimestampTVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBRTimestampTVCell.m; sourceTree = "<group>"; };
+		DA3E6D40191AFB3F0045B01F /* OBRTimestampTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OBRTimestampTVCell.xib; sourceTree = "<group>"; };
+		DA3E6D43191B19980045B01F /* Bus Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Bus Icon.png"; path = "../Bus Icon.png"; sourceTree = "<group>"; };
+		DA3EAC0E190CB0DC00E16D33 /* OBRStopDescriptionTVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBRStopDescriptionTVCell.h; sourceTree = "<group>"; };
+		DA3EAC0F190CB0DC00E16D33 /* OBRStopDescriptionTVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBRStopDescriptionTVCell.m; sourceTree = "<group>"; };
+		DA3EAC10190CB0DC00E16D33 /* OBRStopDescriptionTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OBRStopDescriptionTVCell.xib; sourceTree = "<group>"; };
+		DA3EAC13190CDEFB00E16D33 /* OBRBusDescriptionTVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBRBusDescriptionTVCell.h; sourceTree = "<group>"; };
+		DA3EAC14190CDEFB00E16D33 /* OBRBusDescriptionTVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBRBusDescriptionTVCell.m; sourceTree = "<group>"; };
+		DA3EAC15190CDEFB00E16D33 /* OBRBusDescriptionTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OBRBusDescriptionTVCell.xib; sourceTree = "<group>"; };
+		DA487E3B196910C80038E8EA /* OBRGuidanceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBRGuidanceVC.h; sourceTree = "<group>"; };
+		DA487E3C196910C80038E8EA /* OBRGuidanceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBRGuidanceVC.m; sourceTree = "<group>"; };
+		DA53CFC0190AD85E00305220 /* NavIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NavIcon.png; path = ../NavIcon.png; sourceTree = "<group>"; };
+		DA56E6F91A16FDAF00E70158 /* POI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POI.h; sourceTree = "<group>"; };
+		DA56E6FA1A16FDAF00E70158 /* POI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POI.m; sourceTree = "<group>"; };
+		DA56E6FC1A16FDAF00E70158 /* OBRNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBRNode.h; sourceTree = "<group>"; };
+		DA56E6FD1A16FDAF00E70158 /* OBRNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBRNode.m; sourceTree = "<group>"; };
+		DA6122CB19C392AF00E938CF /* waitIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = waitIcon.png; path = ../waitIcon.png; sourceTree = "<group>"; };
+		DA6122CD19C3A80300E938CF /* walkIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = walkIcon2.png; path = ../walkIcon2.png; sourceTree = "<group>"; };
+		DA65296C1907328F00C3315A /* OBRprefVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBRprefVC.h; sourceTree = "<group>"; };
+		DA65296D1907328F00C3315A /* OBRprefVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBRprefVC.m; sourceTree = "<group>"; };
+		DA659FAF18DB79F50019219C /* OBRoverlayInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBRoverlayInfo.h; sourceTree = "<group>"; };
+		DA659FB018DB79F50019219C /* OBRoverlayInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBRoverlayInfo.m; sourceTree = "<group>"; };
+		DA6A055B18F9D1A900651406 /* OBRRouteListTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBRRouteListTVC.h; sourceTree = "<group>"; };
+		DA6A055C18F9D1A900651406 /* OBRRouteListTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBRRouteListTVC.m; sourceTree = "<group>"; };
+		DA6A055E18F9D3EB00651406 /* OBRRouteListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBRRouteListVC.h; sourceTree = "<group>"; };
+		DA6A055F18F9D3EB00651406 /* OBRRouteListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBRRouteListVC.m; sourceTree = "<group>"; };
+		DA6B79CE1910C539009BBCAB /* OBRmapDetailTVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBRmapDetailTVCell.h; sourceTree = "<group>"; };
+		DA6B79CF1910C539009BBCAB /* OBRmapDetailTVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBRmapDetailTVCell.m; sourceTree = "<group>"; };
+		DA6B79D01910C539009BBCAB /* OBRmapDetailTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OBRmapDetailTVCell.xib; sourceTree = "<group>"; };
+		DA6F9DB51A0EA2CD00C93C46 /* OBRSearchTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBRSearchTVC.h; sourceTree = "<group>"; };
+		DA6F9DB61A0EA2CD00C93C46 /* OBRSearchTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBRSearchTVC.m; sourceTree = "<group>"; };
+		DA706E9718E11E9E003A8BD7 /* OBRsolvedRouteRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBRsolvedRouteRecord.h; path = OahuBusRoutes/OBRsolvedRouteRecord.h; sourceTree = "<group>"; };
+		DA706E9818E11E9E003A8BD7 /* OBRsolvedRouteRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OBRsolvedRouteRecord.m; path = OahuBusRoutes/OBRsolvedRouteRecord.m; sourceTree = "<group>"; };
+		DA70B53418B09795003BA11B /* OBRFinalProcessingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBRFinalProcessingVC.h; sourceTree = "<group>"; };
+		DA70B53518B09795003BA11B /* OBRFinalProcessingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBRFinalProcessingVC.m; sourceTree = "<group>"; };
+		DA77DAAA19E8E2A50066828F /* prevIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prevIcon.png; sourceTree = "<group>"; };
+		DA77DAAC19E8E2AB0066828F /* nextIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextIcon.png; sourceTree = "<group>"; };
+		DA7A76D818A58FE900052A89 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DA7A76DD18A597EC00052A89 /* OBRMapViewAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBRMapViewAnnotation.h; path = OahuBusRoutes/OBRMapViewAnnotation.h; sourceTree = "<group>"; };
+		DA7A76DE18A597EC00052A89 /* OBRMapViewAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OBRMapViewAnnotation.m; path = OahuBusRoutes/OBRMapViewAnnotation.m; sourceTree = "<group>"; };
+		DA7C81D919DF851500536321 /* IOSImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSImage.h; sourceTree = "<group>"; };
+		DA7C81DA19DF851500536321 /* IOSImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOSImage.m; sourceTree = "<group>"; };
+		DA7C81DC19DF8A5D00536321 /* IOSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSLabel.h; sourceTree = "<group>"; };
+		DA7C81DD19DF8A5D00536321 /* IOSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOSLabel.m; sourceTree = "<group>"; };
+		DA804FB719DF26FF00A28F4A /* squareTextBubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squareTextBubble.png; sourceTree = "<group>"; };
+		DA804FB919DF34E400A28F4A /* roundedRect1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roundedRect1.png; sourceTree = "<group>"; };
+		DA844F1F18A33DC200A73BB7 /* OBRdataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBRdataStore.h; path = OahuBusRoutes/OBRdataStore.h; sourceTree = "<group>"; };
+		DA844F2018A33DC200A73BB7 /* OBRdataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OBRdataStore.m; path = OahuBusRoutes/OBRdataStore.m; sourceTree = "<group>"; };
+		DA844F2318A343A000A73BB7 /* OBRdatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OBRdatabase.xcdatamodel; sourceTree = "<group>"; };
+		DA844F2818A3471D00A73BB7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DA84FC1B18EFC00A00945B21 /* connectingStopsReorgJson.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = connectingStopsReorgJson.zip; sourceTree = "<group>"; };
+		DA84FC1D18EFFB7D00945B21 /* connectingStopsReorg.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = connectingStopsReorg.json; sourceTree = "<group>"; };
+		DA870C8719DB3D73005E9263 /* OBRsolvingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBRsolvingVC.h; sourceTree = "<group>"; };
+		DA870C8819DB3D73005E9263 /* OBRsolvingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBRsolvingVC.m; sourceTree = "<group>"; };
+		DA8BB26D19A533730060AA25 /* routeRouteRoute.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = routeRouteRoute.txt; path = routeSchedules/routeRouteRoute.txt; sourceTree = "<group>"; };
+		DA8BB26F19A533890060AA25 /* routeWalkRoute.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = routeWalkRoute.txt; sourceTree = "<group>"; };
+		DA8BB27119A533900060AA25 /* jointStops.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jointStops.txt; sourceTree = "<group>"; };
+		DA8E926418D993F8007D3A6E /* BusStopSign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BusStopSign.png; path = ../BusStopSign.png; sourceTree = "<group>"; };
+		DA8EEC8819AFDBD700778547 /* Data.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Data.png; path = ../Data.png; sourceTree = "<group>"; };
+		DA908E2719EDCA5900B72CA7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DA90F94218C31F7200EF6629 /* Stops.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Stops.txt; sourceTree = "<group>"; };
+		DA9551781A12D83C00D96036 /* OBRStopNew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBRStopNew.h; sourceTree = "<group>"; };
+		DA9551791A12D83C00D96036 /* OBRStopNew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBRStopNew.m; sourceTree = "<group>"; };
+		DA95517B1A12D83D00D96036 /* OBRTrip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBRTrip.h; sourceTree = "<group>"; };
+		DA95517C1A12D83D00D96036 /* OBRTrip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBRTrip.m; sourceTree = "<group>"; };
+		DA9FC79818F0DB2300FCB270 /* bluearrownew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bluearrownew.png; path = ../bluearrownew.png; sourceTree = "<group>"; };
+		DA9FC79A18F0DC1B00FCB270 /* bluearrowsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bluearrowsmall.png; path = ../bluearrowsmall.png; sourceTree = "<group>"; };
+		DAA9047318D6E34100ADBAD3 /* purpledotsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = purpledotsmall.png; path = ../purpledotsmall.png; sourceTree = "<group>"; };
+		DAA9D32F18A71973006CA615 /* OBRArrival.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OBRArrival.h; path = OahuBusRoutes/OBRArrival.h; sourceTree = "<group>"; };
+		DAA9D33018A71973006CA615 /* OBRArrival.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OBRArrival.m; path = OahuBusRoutes/OBRArrival.m; sourceTree = "<group>"; };
+		DAAE1F7F18EBD2F5004DDE46 /* routesIndexedByStop.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = routesIndexedByStop.json; sourceTree = "<group>"; };
+		DABCBB7519E511D70050B199 /* OBRRouteDetailListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBRRouteDetailListVC.h; sourceTree = "<group>"; };
+		DABCBB7619E511D70050B199 /* OBRRouteDetailListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBRRouteDetailListVC.m; sourceTree = "<group>"; };
+		DABD1D3A1A6F072A003F03AA /* OBRStopDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBRStopDetailVC.h; sourceTree = "<group>"; };
+		DABD1D3B1A6F072A003F03AA /* OBRStopDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBRStopDetailVC.m; sourceTree = "<group>"; };
+		DABD490E19A884BE002FDFA5 /* Route.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Route.png; path = ../Route.png; sourceTree = "<group>"; };
+		DACA3C5118ADDDC200BD22B2 /* OBRalgPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBRalgPoint.h; sourceTree = "<group>"; };
+		DACA3C5218ADDDC200BD22B2 /* OBRalgPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBRalgPoint.m; sourceTree = "<group>"; };
+		DAD170E918DD846E00BAF7D2 /* OBRsolverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBRsolverView.h; sourceTree = "<group>"; };
+		DAD170EA18DD846E00BAF7D2 /* OBRsolverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBRsolverView.m; sourceTree = "<group>"; };
+		DAD3479B1A00CF3B003F7688 /* SearchButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SearchButton.png; sourceTree = "<group>"; };
+		DAD3479D1A00CF45003F7688 /* TrackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TrackButton.png; sourceTree = "<group>"; };
+		DAD3479F1A00EB2A003F7688 /* TimeTable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TimeTable.png; sourceTree = "<group>"; };
+		DAD6612B19EA589E00A031F2 /* Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Menu.png; sourceTree = "<group>"; };
+		DAD6612D19EA58A300A031F2 /* Directions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Directions.png; sourceTree = "<group>"; };
+		DAD6612F19EA58AC00A031F2 /* Prefs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Prefs.png; sourceTree = "<group>"; };
+		DADF9BB71A732E6C0050C0C2 /* Schedules.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Schedules.txt; sourceTree = "<group>"; };
+		DAEF8B4A198F6DDA00369286 /* OBRscheduleFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBRscheduleFile.h; sourceTree = "<group>"; };
+		DAEF8B4B198F6DDA00369286 /* OBRscheduleFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBRscheduleFile.m; sourceTree = "<group>"; };
+		DAF285DA19358D6D00ACE2CB /* OBRwalkTVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBRwalkTVCell.h; sourceTree = "<group>"; };
+		DAF285DB19358D6D00ACE2CB /* OBRwalkTVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBRwalkTVCell.m; sourceTree = "<group>"; };
+		DAF285DC19358D6D00ACE2CB /* OBRwalkTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OBRwalkTVCell.xib; sourceTree = "<group>"; };
+		DAF285DF1935C85000ACE2CB /* walkicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = walkicon.png; path = ../walkicon.png; sourceTree = "<group>"; };
+		DAF4CB6D1A3A32FE00E43D14 /* TrashIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TrashIcon.png; sourceTree = "<group>"; };
+		DAF69D491987469500473DB4 /* yellowarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yellowarrow.png; path = ../yellowarrow.png; sourceTree = "<group>"; };
+		DAF69D4B198746A600473DB4 /* greenarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greenarrow.png; path = ../greenarrow.png; sourceTree = "<group>"; };
+		DAF69D4D19874D0F00473DB4 /* yellowarrow2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yellowarrow2.png; path = ../yellowarrow2.png; sourceTree = "<group>"; };
+		DAF69D531987528B00473DB4 /* yellowarrow3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yellowarrow3.png; path = ../yellowarrow3.png; sourceTree = "<group>"; };
+		DAF69D551987529900473DB4 /* greenarrow4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greenarrow4.png; path = ../greenarrow4.png; sourceTree = "<group>"; };
+		DAF69D57198752A700473DB4 /* redarrow5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redarrow5.png; path = ../redarrow5.png; sourceTree = "<group>"; };
+		DAFA550D1A01E8C000E8F20E /* OSMHawaiiData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = OSMHawaiiData.json; path = ../../../python/OSM/OSMHawaiiData.json; sourceTree = "<group>"; };
+		DAFCBBEA1A10142D00C86978 /* Search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Search.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA2A19FC17FBA65F00DB5607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7A76D918A58FE900052A89 /* MapKit.framework in Frameworks */,
+				DA844F2918A3471D00A73BB7 /* CoreData.framework in Frameworks */,
+				DA2A1A0517FBA65F00DB5607 /* CoreGraphics.framework in Frameworks */,
+				DA2A1A0717FBA65F00DB5607 /* UIKit.framework in Frameworks */,
+				DA2A1A0317FBA65F00DB5607 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2A1A1D17FBA65F00DB5607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2A1A2217FBA65F00DB5607 /* XCTest.framework in Frameworks */,
+				DA2A1A2417FBA65F00DB5607 /* UIKit.framework in Frameworks */,
+				DA2A1A2317FBA65F00DB5607 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA1B2F0A19C93DEC008048E6 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				DAF4CB6D1A3A32FE00E43D14 /* TrashIcon.png */,
+				DA046AC81A0C802F00A71CE8 /* BusStopButton.png */,
+				DAFCBBEA1A10142D00C86978 /* Search.png */,
+				DA1D76C81A0C023000B2BB57 /* BusButton.png */,
+				DAD3479F1A00EB2A003F7688 /* TimeTable.png */,
+				DA06B6D61A0A0A5F006E4297 /* Circle.png */,
+				DAD3479D1A00CF45003F7688 /* TrackButton.png */,
+				DA115B7019FC8DE100A594B5 /* RoundedRectNoBorder.png */,
+				DAD6612D19EA58A300A031F2 /* Directions.png */,
+				DAD3479B1A00CF3B003F7688 /* SearchButton.png */,
+				DA2D66C119EBBAF600B26EF5 /* AtoBWide.png */,
+				DAD6612B19EA589E00A031F2 /* Menu.png */,
+				DA15201019EDD359009938B7 /* appimage@2x.png */,
+				DA77DAAC19E8E2AB0066828F /* nextIcon.png */,
+				DA77DAAA19E8E2A50066828F /* prevIcon.png */,
+				DA804FB919DF34E400A28F4A /* roundedRect1.png */,
+				DA804FB719DF26FF00A28F4A /* squareTextBubble.png */,
+				DAD6612F19EA58AC00A031F2 /* Prefs.png */,
+				DA115B6C19FC7AD200A594B5 /* HollowFlag.png */,
+				DA26B7CC19DA312C006BD3AE /* HollowFlag.png */,
+				DA908E2719EDCA5900B72CA7 /* Default@2x.png */,
+				DA115B6E19FC7ADC00A594B5 /* HollowCrossHairs.png */,
+				DA26B7CA19DA2EA6006BD3AE /* HollowCrossHairs.png */,
+				DA0BFDD619CA687E00FED07B /* bwarrow.png */,
+				DAF69D57198752A700473DB4 /* redarrow5.png */,
+				DA1B2F0B19C93EBF008048E6 /* greenFlag.png */,
+				DAF69D491987469500473DB4 /* yellowarrow.png */,
+				DA0D90AF19836088004276FE /* redarrow.png */,
+				DABD490E19A884BE002FDFA5 /* Route.png */,
+				DA8EEC8819AFDBD700778547 /* Data.png */,
+				DA6122CD19C3A80300E938CF /* walkIcon2.png */,
+				DAF69D4D19874D0F00473DB4 /* yellowarrow2.png */,
+				DAF69D531987528B00473DB4 /* yellowarrow3.png */,
+				DA1EDD0B19BBEBD400239CBF /* Green Checkmark.png */,
+				DA9FC79A18F0DC1B00FCB270 /* bluearrowsmall.png */,
+				DA3E6D43191B19980045B01F /* Bus Icon.png */,
+				DAA9047318D6E34100ADBAD3 /* purpledotsmall.png */,
+				DAF69D4B198746A600473DB4 /* greenarrow.png */,
+				DAF69D551987529900473DB4 /* greenarrow4.png */,
+				DA9FC79818F0DB2300FCB270 /* bluearrownew.png */,
+				DA53CFC0190AD85E00305220 /* NavIcon.png */,
+				DAF285DF1935C85000ACE2CB /* walkicon.png */,
+				DA8E926418D993F8007D3A6E /* BusStopSign.png */,
+				DA07735319C3B06900CA555C /* DataHollow.png */,
+				DA6122CB19C392AF00E938CF /* waitIcon.png */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		DA2A19F617FBA65F00DB5607 = {
+			isa = PBXGroup;
+			children = (
+				DA122D8D1A26CB6E0084FA20 /* Launch Screen.xib */,
+				DAA4E7031989D8D1006FE572 /* OldCode */,
+				DA65296919072FB200C3315A /* Classes */,
+				DA65296819072F5900C3315A /* ViewControllers */,
+				DA65296A1907307200C3315A /* layout */,
+				DA65296B190730CA00C3315A /* Model */,
+				DA2A1A0817FBA65F00DB5607 /* OahuBusRoutes */,
+				DA2A1A2717FBA65F00DB5607 /* OahuBusRoutesTests */,
+				DA2A1A0117FBA65F00DB5607 /* Frameworks */,
+				DA2A1A0017FBA65F00DB5607 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA2A1A0017FBA65F00DB5607 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA2A19FF17FBA65F00DB5607 /* OahuBusRoutes.app */,
+				DA2A1A2017FBA65F00DB5607 /* OahuBusRoutesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA2A1A0117FBA65F00DB5607 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA7A76D818A58FE900052A89 /* MapKit.framework */,
+				DA844F2818A3471D00A73BB7 /* CoreData.framework */,
+				DA2A1A0217FBA65F00DB5607 /* Foundation.framework */,
+				DA2A1A0417FBA65F00DB5607 /* CoreGraphics.framework */,
+				DA2A1A0617FBA65F00DB5607 /* UIKit.framework */,
+				DA2A1A2117FBA65F00DB5607 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA2A1A0817FBA65F00DB5607 /* OahuBusRoutes */ = {
+			isa = PBXGroup;
+			children = (
+				DADF9BB71A732E6C0050C0C2 /* Schedules.txt */,
+				DA2A1A1117FBA65F00DB5607 /* OBRAppDelegate.h */,
+				DA2A1A1217FBA65F00DB5607 /* OBRAppDelegate.m */,
+				DA2042F818A301CF00C46A77 /* OBRarrivalRecord.h */,
+				DA2042F918A301CF00C46A77 /* OBRarrivalRecord.m */,
+				DA2A1A1A17FBA65F00DB5607 /* Images.xcassets */,
+				DA2A1A0917FBA65F00DB5607 /* Supporting Files */,
+			);
+			path = OahuBusRoutes;
+			sourceTree = "<group>";
+		};
+		DA2A1A0917FBA65F00DB5607 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA0B80EF1A799A77007FAC91 /* store.data */,
+				DAFA550D1A01E8C000E8F20E /* OSMHawaiiData.json */,
+				DA1B2F0A19C93DEC008048E6 /* Graphics */,
+				DA8BB26D19A533730060AA25 /* routeRouteRoute.txt */,
+				DA0D0EC619D6129C00781D65 /* CombinedRoutes.txt */,
+				DA8BB26F19A533890060AA25 /* routeWalkRoute.txt */,
+				DA8BB27119A533900060AA25 /* jointStops.txt */,
+				DA051D7A19A00BA20059B901 /* stopRouteDict.json */,
+				DA84FC1D18EFFB7D00945B21 /* connectingStopsReorg.json */,
+				DAAE1F7F18EBD2F5004DDE46 /* routesIndexedByStop.json */,
+				DA84FC1B18EFC00A00945B21 /* connectingStopsReorgJson.zip */,
+				DA90F94218C31F7200EF6629 /* Stops.txt */,
+				DA2A1A0A17FBA65F00DB5607 /* OahuBusRoutes-Info.plist */,
+				DA2A1A0B17FBA65F00DB5607 /* InfoPlist.strings */,
+				DA2A1A0E17FBA65F00DB5607 /* main.m */,
+				DA2A1A1017FBA65F00DB5607 /* OahuBusRoutes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA2A1A2717FBA65F00DB5607 /* OahuBusRoutesTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA2A1A2D17FBA65F00DB5607 /* OahuBusRoutesTests.m */,
+				DA2A1A2817FBA65F00DB5607 /* Supporting Files */,
+			);
+			path = OahuBusRoutesTests;
+			sourceTree = "<group>";
+		};
+		DA2A1A2817FBA65F00DB5607 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA2A1A2917FBA65F00DB5607 /* OahuBusRoutesTests-Info.plist */,
+				DA2A1A2A17FBA65F00DB5607 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA65296819072F5900C3315A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DABD1D3A1A6F072A003F03AA /* OBRStopDetailVC.h */,
+				DABD1D3B1A6F072A003F03AA /* OBRStopDetailVC.m */,
+				DA13766A1A0F4DF200F3B5F6 /* OBRBuildDatabaseVC.h */,
+				DA13766B1A0F4DF200F3B5F6 /* OBRBuildDatabaseVC.m */,
+				DA6F9DB51A0EA2CD00C93C46 /* OBRSearchTVC.h */,
+				DA6F9DB61A0EA2CD00C93C46 /* OBRSearchTVC.m */,
+				DABCBB7519E511D70050B199 /* OBRRouteDetailListVC.h */,
+				DABCBB7619E511D70050B199 /* OBRRouteDetailListVC.m */,
+				DA870C8719DB3D73005E9263 /* OBRsolvingVC.h */,
+				DA870C8819DB3D73005E9263 /* OBRsolvingVC.m */,
+				DA00A6E719B586E100EDD2B3 /* OBRStopDetailTVC.h */,
+				DA00A6E819B586E100EDD2B3 /* OBRStopDetailTVC.m */,
+				DA487E3B196910C80038E8EA /* OBRGuidanceVC.h */,
+				DA487E3C196910C80038E8EA /* OBRGuidanceVC.m */,
+				DA65296C1907328F00C3315A /* OBRprefVC.h */,
+				DA65296D1907328F00C3315A /* OBRprefVC.m */,
+				DA1004A618A9993E00675AB0 /* OBRRouteView.h */,
+				DA1004A718A9993E00675AB0 /* OBRRouteView.m */,
+				DA2A1A1817FBA65F00DB5607 /* OBRViewController.m */,
+				DA2A1A1717FBA65F00DB5607 /* OBRViewController.h */,
+				DAD170E918DD846E00BAF7D2 /* OBRsolverView.h */,
+				DAD170EA18DD846E00BAF7D2 /* OBRsolverView.m */,
+				DA70B53518B09795003BA11B /* OBRFinalProcessingVC.m */,
+				DA70B53418B09795003BA11B /* OBRFinalProcessingVC.h */,
+				DA3EAC0F190CB0DC00E16D33 /* OBRStopDescriptionTVCell.m */,
+				DA6A055B18F9D1A900651406 /* OBRRouteListTVC.h */,
+				DA6A055C18F9D1A900651406 /* OBRRouteListTVC.m */,
+				DA6A055E18F9D3EB00651406 /* OBRRouteListVC.h */,
+				DA6A055F18F9D3EB00651406 /* OBRRouteListVC.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DA65296919072FB200C3315A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DA39557A19F4E1BA0061412A /* IOSTimeFunctions.h */,
+				DA39557B19F4E1BA0061412A /* IOSTimeFunctions.m */,
+				DA39557719F4D9AD0061412A /* OBRRouteOverlay.h */,
+				DA39557819F4D9AD0061412A /* OBRRouteOverlay.m */,
+				DA7C81D919DF851500536321 /* IOSImage.h */,
+				DA7C81DA19DF851500536321 /* IOSImage.m */,
+				DA7C81DC19DF8A5D00536321 /* IOSLabel.h */,
+				DA7C81DD19DF8A5D00536321 /* IOSLabel.m */,
+				DA2A1A3717FBA6A200DB5607 /* OBRBusStop.h */,
+				DA2A1A3817FBA6A200DB5607 /* OBRBusStop.m */,
+				DA2A1A3A17FD5A4800DB5607 /* OBRBusRoute.h */,
+				DA2A1A3B17FD5A4800DB5607 /* OBRBusRoute.m */,
+				DACA3C5218ADDDC200BD22B2 /* OBRalgPoint.m */,
+				DACA3C5118ADDDC200BD22B2 /* OBRalgPoint.h */,
+				DA659FAF18DB79F50019219C /* OBRoverlayInfo.h */,
+				DA659FB018DB79F50019219C /* OBRoverlayInfo.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		DA65296A1907307200C3315A /* layout */ = {
+			isa = PBXGroup;
+			children = (
+				DA3E6D3E191AFB3F0045B01F /* OBRTimestampTVCell.h */,
+				DA3E6D3F191AFB3F0045B01F /* OBRTimestampTVCell.m */,
+				DA3E6D40191AFB3F0045B01F /* OBRTimestampTVCell.xib */,
+				DA6B79CE1910C539009BBCAB /* OBRmapDetailTVCell.h */,
+				DA6B79CF1910C539009BBCAB /* OBRmapDetailTVCell.m */,
+				DA6B79D01910C539009BBCAB /* OBRmapDetailTVCell.xib */,
+				DA3EAC13190CDEFB00E16D33 /* OBRBusDescriptionTVCell.h */,
+				DA3EAC14190CDEFB00E16D33 /* OBRBusDescriptionTVCell.m */,
+				DA3EAC15190CDEFB00E16D33 /* OBRBusDescriptionTVCell.xib */,
+				DAF285DA19358D6D00ACE2CB /* OBRwalkTVCell.h */,
+				DAF285DB19358D6D00ACE2CB /* OBRwalkTVCell.m */,
+				DAF285DC19358D6D00ACE2CB /* OBRwalkTVCell.xib */,
+				DA3EAC0E190CB0DC00E16D33 /* OBRStopDescriptionTVCell.h */,
+				DA3EAC10190CB0DC00E16D33 /* OBRStopDescriptionTVCell.xib */,
+				DA1DF98C19030AB1001D0042 /* MyCustomCellTableViewCell.h */,
+				DA1DF98D19030AB1001D0042 /* MyCustomCellTableViewCell.m */,
+				DA1DF98A190309AB001D0042 /* MyCustomCell.xib */,
+				DA2A1A1417FBA65F00DB5607 /* Main3.storyboard */,
+				DA7A76DD18A597EC00052A89 /* OBRMapViewAnnotation.h */,
+				DA7A76DE18A597EC00052A89 /* OBRMapViewAnnotation.m */,
+			);
+			name = layout;
+			sourceTree = "<group>";
+		};
+		DA65296B190730CA00C3315A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DA1B5EF618A9795B00A7C3F0 /* OBRRoutePoints.h */,
+				DA1B5EF718A9795B00A7C3F0 /* OBRRoutePoints.m */,
+				DA56E6FC1A16FDAF00E70158 /* OBRNode.h */,
+				DA56E6FD1A16FDAF00E70158 /* OBRNode.m */,
+				DA56E6F91A16FDAF00E70158 /* POI.h */,
+				DA56E6FA1A16FDAF00E70158 /* POI.m */,
+				DA95517B1A12D83D00D96036 /* OBRTrip.h */,
+				DA95517C1A12D83D00D96036 /* OBRTrip.m */,
+				DA9551781A12D83C00D96036 /* OBRStopNew.h */,
+				DA9551791A12D83C00D96036 /* OBRStopNew.m */,
+				DA30E64319CBB18B00E3F461 /* palette.h */,
+				DA30E64419CBB18B00E3F461 /* palette.m */,
+				DAEF8B4A198F6DDA00369286 /* OBRscheduleFile.h */,
+				DAEF8B4B198F6DDA00369286 /* OBRscheduleFile.m */,
+				DA706E9818E11E9E003A8BD7 /* OBRsolvedRouteRecord.m */,
+				DA706E9718E11E9E003A8BD7 /* OBRsolvedRouteRecord.h */,
+				DA844F2218A343A000A73BB7 /* OBRdatabase.xcdatamodeld */,
+				DA01B4DA1A1062EE00EC8267 /* OBRScheduleNew.h */,
+				DA01B4DB1A1062EE00EC8267 /* OBRScheduleNew.m */,
+				DA844F1F18A33DC200A73BB7 /* OBRdataStore.h */,
+				DA844F2018A33DC200A73BB7 /* OBRdataStore.m */,
+				DA114E6A18A41BF400022089 /* OBRVehicle.h */,
+				DA114E6B18A41BF400022089 /* OBRVehicle.m */,
+				DAA9D32F18A71973006CA615 /* OBRArrival.h */,
+				DAA9D33018A71973006CA615 /* OBRArrival.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DAA4E7031989D8D1006FE572 /* OldCode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = OldCode;
+			path = OahuBusRoutes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA2A19FE17FBA65F00DB5607 /* OahuBusRoutes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA2A1A3117FBA65F00DB5607 /* Build configuration list for PBXNativeTarget "OahuBusRoutes" */;
+			buildPhases = (
+				DA2A19FB17FBA65F00DB5607 /* Sources */,
+				DA2A19FC17FBA65F00DB5607 /* Frameworks */,
+				DA2A19FD17FBA65F00DB5607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OahuBusRoutes;
+			productName = OahuBusRoutes;
+			productReference = DA2A19FF17FBA65F00DB5607 /* OahuBusRoutes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA2A1A1F17FBA65F00DB5607 /* OahuBusRoutesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA2A1A3417FBA65F00DB5607 /* Build configuration list for PBXNativeTarget "OahuBusRoutesTests" */;
+			buildPhases = (
+				DA2A1A1C17FBA65F00DB5607 /* Sources */,
+				DA2A1A1D17FBA65F00DB5607 /* Frameworks */,
+				DA2A1A1E17FBA65F00DB5607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA2A1A2617FBA65F00DB5607 /* PBXTargetDependency */,
+			);
+			name = OahuBusRoutesTests;
+			productName = OahuBusRoutesTests;
+			productReference = DA2A1A2017FBA65F00DB5607 /* OahuBusRoutesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA2A19F717FBA65F00DB5607 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OBR;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Paul Philippou";
+				TargetAttributes = {
+					DA2A19FE17FBA65F00DB5607 = {
+						DevelopmentTeam = M3XUK5ZLN4;
+					};
+					DA2A1A1F17FBA65F00DB5607 = {
+						TestTargetID = DA2A19FE17FBA65F00DB5607;
+					};
+				};
+			};
+			buildConfigurationList = DA2A19FA17FBA65F00DB5607 /* Build configuration list for PBXProject "OahuBusRoutes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA2A19F617FBA65F00DB5607;
+			productRefGroup = DA2A1A0017FBA65F00DB5607 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA2A19FE17FBA65F00DB5607 /* OahuBusRoutes */,
+				DA2A1A1F17FBA65F00DB5607 /* OahuBusRoutesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA2A19FD17FBA65F00DB5607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA26B7CD19DA312C006BD3AE /* HollowFlag.png in Resources */,
+				DA8EEC8919AFDBD700778547 /* Data.png in Resources */,
+				DA9FC79918F0DB2300FCB270 /* bluearrownew.png in Resources */,
+				DAF4CB6E1A3A32FE00E43D14 /* TrashIcon.png in Resources */,
+				DAD347A01A00EB2A003F7688 /* TimeTable.png in Resources */,
+				DA77DAAB19E8E2A50066828F /* prevIcon.png in Resources */,
+				DA6122CE19C3A80300E938CF /* walkIcon2.png in Resources */,
+				DAA9047418D6E34100ADBAD3 /* purpledotsmall.png in Resources */,
+				DA8BB27219A533900060AA25 /* jointStops.txt in Resources */,
+				DAF285E01935C85000ACE2CB /* walkicon.png in Resources */,
+				DADF9BB81A732E6C0050C0C2 /* Schedules.txt in Resources */,
+				DA1DF98B190309AB001D0042 /* MyCustomCell.xib in Resources */,
+				DAD6613019EA58AC00A031F2 /* Prefs.png in Resources */,
+				DA115B7119FC8DE100A594B5 /* RoundedRectNoBorder.png in Resources */,
+				DA3E6D42191AFB3F0045B01F /* OBRTimestampTVCell.xib in Resources */,
+				DA115B6F19FC7ADC00A594B5 /* HollowCrossHairs.png in Resources */,
+				DAF69D4C198746A600473DB4 /* greenarrow.png in Resources */,
+				DABD490F19A884BE002FDFA5 /* Route.png in Resources */,
+				DA046AC91A0C802F00A71CE8 /* BusStopButton.png in Resources */,
+				DAD6612E19EA58A300A031F2 /* Directions.png in Resources */,
+				DA8BB26E19A533730060AA25 /* routeRouteRoute.txt in Resources */,
+				DA2A1A1B17FBA65F00DB5607 /* Images.xcassets in Resources */,
+				DAD6612C19EA589E00A031F2 /* Menu.png in Resources */,
+				DA0BFDD719CA687E00FED07B /* bwarrow.png in Resources */,
+				DA3E6D44191B19980045B01F /* Bus Icon.png in Resources */,
+				DA2A1A0D17FBA65F00DB5607 /* InfoPlist.strings in Resources */,
+				DAFA550E1A01E8C000E8F20E /* OSMHawaiiData.json in Resources */,
+				DA0D0EC719D6129C00781D65 /* CombinedRoutes.txt in Resources */,
+				DA90F94318C31F7200EF6629 /* Stops.txt in Resources */,
+				DAFCBBEB1A10142D00C86978 /* Search.png in Resources */,
+				DA8E926518D993F8007D3A6E /* BusStopSign.png in Resources */,
+				DA3EAC17190CDEFB00E16D33 /* OBRBusDescriptionTVCell.xib in Resources */,
+				DA0D90B019836088004276FE /* redarrow.png in Resources */,
+				DA0B80F01A799A77007FAC91 /* store.data in Resources */,
+				DAF285DE19358D6D00ACE2CB /* OBRwalkTVCell.xib in Resources */,
+				DA122D8E1A26CB6E0084FA20 /* Launch Screen.xib in Resources */,
+				DAF69D58198752A700473DB4 /* redarrow5.png in Resources */,
+				DAD3479C1A00CF3B003F7688 /* SearchButton.png in Resources */,
+				DA07735419C3B06900CA555C /* DataHollow.png in Resources */,
+				DAF69D4E19874D0F00473DB4 /* yellowarrow2.png in Resources */,
+				DA8BB27019A533890060AA25 /* routeWalkRoute.txt in Resources */,
+				DA77DAAD19E8E2AB0066828F /* nextIcon.png in Resources */,
+				DAAE1F8018EBD2F5004DDE46 /* routesIndexedByStop.json in Resources */,
+				DA804FBA19DF34E400A28F4A /* roundedRect1.png in Resources */,
+				DA2A1A1617FBA65F00DB5607 /* Main3.storyboard in Resources */,
+				DAF69D4A1987469500473DB4 /* yellowarrow.png in Resources */,
+				DA3EAC12190CB0DC00E16D33 /* OBRStopDescriptionTVCell.xib in Resources */,
+				DA15201119EDD359009938B7 /* appimage@2x.png in Resources */,
+				DA908E2819EDCA5900B72CA7 /* Default@2x.png in Resources */,
+				DA1B2F0C19C93EBF008048E6 /* greenFlag.png in Resources */,
+				DA06B6D71A0A0A5F006E4297 /* Circle.png in Resources */,
+				DA84FC1E18EFFB7D00945B21 /* connectingStopsReorg.json in Resources */,
+				DA051D7B19A00BA20059B901 /* stopRouteDict.json in Resources */,
+				DA1EDD0C19BBEBD400239CBF /* Green Checkmark.png in Resources */,
+				DA6B79D21910C539009BBCAB /* OBRmapDetailTVCell.xib in Resources */,
+				DA53CFC1190AD85E00305220 /* NavIcon.png in Resources */,
+				DA9FC79B18F0DC1B00FCB270 /* bluearrowsmall.png in Resources */,
+				DAD3479E1A00CF45003F7688 /* TrackButton.png in Resources */,
+				DA84FC1C18EFC00A00945B21 /* connectingStopsReorgJson.zip in Resources */,
+				DA2D66C219EBBAF600B26EF5 /* AtoBWide.png in Resources */,
+				DAF69D561987529900473DB4 /* greenarrow4.png in Resources */,
+				DA1D76C91A0C023000B2BB57 /* BusButton.png in Resources */,
+				DA6122CC19C392AF00E938CF /* waitIcon.png in Resources */,
+				DA804FB819DF26FF00A28F4A /* squareTextBubble.png in Resources */,
+				DAF69D541987528B00473DB4 /* yellowarrow3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2A1A1E17FBA65F00DB5607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2A1A2C17FBA65F00DB5607 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA2A19FB17FBA65F00DB5607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA39557C19F4E1BA0061412A /* IOSTimeFunctions.m in Sources */,
+				DABCBB7719E511D70050B199 /* OBRRouteDetailListVC.m in Sources */,
+				DA2042FA18A301CF00C46A77 /* OBRarrivalRecord.m in Sources */,
+				DA1DF98E19030AB1001D0042 /* MyCustomCellTableViewCell.m in Sources */,
+				DA01B4DC1A1062EE00EC8267 /* OBRScheduleNew.m in Sources */,
+				DA95517D1A12D83D00D96036 /* OBRTrip.m in Sources */,
+				DA2A1A3C17FD5A4800DB5607 /* OBRBusRoute.m in Sources */,
+				DA65296E1907328F00C3315A /* OBRprefVC.m in Sources */,
+				DA870C8919DB3D73005E9263 /* OBRsolvingVC.m in Sources */,
+				DA56E6FB1A16FDAF00E70158 /* POI.m in Sources */,
+				DA3EAC11190CB0DC00E16D33 /* OBRStopDescriptionTVCell.m in Sources */,
+				DA2A1A1917FBA65F00DB5607 /* OBRViewController.m in Sources */,
+				DA844F2418A343A000A73BB7 /* OBRdatabase.xcdatamodeld in Sources */,
+				DA3E6D41191AFB3F0045B01F /* OBRTimestampTVCell.m in Sources */,
+				DA95517A1A12D83C00D96036 /* OBRStopNew.m in Sources */,
+				DA30E64519CBB18B00E3F461 /* palette.m in Sources */,
+				DA70B53618B09795003BA11B /* OBRFinalProcessingVC.m in Sources */,
+				DA114E6C18A41BF400022089 /* OBRVehicle.m in Sources */,
+				DAF285DD19358D6D00ACE2CB /* OBRwalkTVCell.m in Sources */,
+				DA3EAC16190CDEFB00E16D33 /* OBRBusDescriptionTVCell.m in Sources */,
+				DAD170EB18DD846E00BAF7D2 /* OBRsolverView.m in Sources */,
+				DA39557919F4D9AD0061412A /* OBRRouteOverlay.m in Sources */,
+				DAA9D33118A71973006CA615 /* OBRArrival.m in Sources */,
+				DA2A1A1317FBA65F00DB5607 /* OBRAppDelegate.m in Sources */,
+				DACA3C5318ADDDC200BD22B2 /* OBRalgPoint.m in Sources */,
+				DA2A1A3917FBA6A200DB5607 /* OBRBusStop.m in Sources */,
+				DA6F9DB71A0EA2CD00C93C46 /* OBRSearchTVC.m in Sources */,
+				DA6B79D11910C539009BBCAB /* OBRmapDetailTVCell.m in Sources */,
+				DA13766C1A0F4DF200F3B5F6 /* OBRBuildDatabaseVC.m in Sources */,
+				DA6A055D18F9D1A900651406 /* OBRRouteListTVC.m in Sources */,
+				DA7C81DB19DF851500536321 /* IOSImage.m in Sources */,
+				DA659FB118DB79F50019219C /* OBRoverlayInfo.m in Sources */,
+				DA844F2118A33DC200A73BB7 /* OBRdataStore.m in Sources */,
+				DA00A6E919B586E100EDD2B3 /* OBRStopDetailTVC.m in Sources */,
+				DA1004A818A9993E00675AB0 /* OBRRouteView.m in Sources */,
+				DAEF8B4C198F6DDA00369286 /* OBRscheduleFile.m in Sources */,
+				DA6A056018F9D3EB00651406 /* OBRRouteListVC.m in Sources */,
+				DA2A1A0F17FBA65F00DB5607 /* main.m in Sources */,
+				DA706E9918E11E9E003A8BD7 /* OBRsolvedRouteRecord.m in Sources */,
+				DABD1D3C1A6F072A003F03AA /* OBRStopDetailVC.m in Sources */,
+				DA487E3D196910C80038E8EA /* OBRGuidanceVC.m in Sources */,
+				DA1B5EF818A9795B00A7C3F0 /* OBRRoutePoints.m in Sources */,
+				DA56E6FE1A16FDAF00E70158 /* OBRNode.m in Sources */,
+				DA7C81DE19DF8A5D00536321 /* IOSLabel.m in Sources */,
+				DA7A76DF18A597EC00052A89 /* OBRMapViewAnnotation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2A1A1C17FBA65F00DB5607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2A1A2E17FBA65F00DB5607 /* OahuBusRoutesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA2A1A2617FBA65F00DB5607 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA2A19FE17FBA65F00DB5607 /* OahuBusRoutes */;
+			targetProxy = DA2A1A2517FBA65F00DB5607 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA2A1A0B17FBA65F00DB5607 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA2A1A0C17FBA65F00DB5607 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DA2A1A1417FBA65F00DB5607 /* Main3.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA2A1A1517FBA65F00DB5607 /* Base */,
+			);
+			name = Main3.storyboard;
+			path = OahuBusRoutes;
+			sourceTree = "<group>";
+		};
+		DA2A1A2A17FBA65F00DB5607 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA2A1A2B17FBA65F00DB5607 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA2A1A2F17FBA65F00DB5607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DA2A1A3017FBA65F00DB5607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA2A1A3217FBA65F00DB5607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OahuBusRoutes/OahuBusRoutes-Prefix.pch";
+				INFOPLIST_FILE = "OahuBusRoutes/OahuBusRoutes-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DA2A1A3317FBA65F00DB5607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OahuBusRoutes/OahuBusRoutes-Prefix.pch";
+				INFOPLIST_FILE = "OahuBusRoutes/OahuBusRoutes-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DA2A1A3517FBA65F00DB5607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OahuBusRoutes.app/OahuBusRoutes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OahuBusRoutes/OahuBusRoutes-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OahuBusRoutesTests/OahuBusRoutesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DA2A1A3617FBA65F00DB5607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OahuBusRoutes.app/OahuBusRoutes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OahuBusRoutes/OahuBusRoutes-Prefix.pch";
+				INFOPLIST_FILE = "OahuBusRoutesTests/OahuBusRoutesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA2A19FA17FBA65F00DB5607 /* Build configuration list for PBXProject "OahuBusRoutes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2A1A2F17FBA65F00DB5607 /* Debug */,
+				DA2A1A3017FBA65F00DB5607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA2A1A3117FBA65F00DB5607 /* Build configuration list for PBXNativeTarget "OahuBusRoutes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2A1A3217FBA65F00DB5607 /* Debug */,
+				DA2A1A3317FBA65F00DB5607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA2A1A3417FBA65F00DB5607 /* Build configuration list for PBXNativeTarget "OahuBusRoutesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2A1A3517FBA65F00DB5607 /* Debug */,
+				DA2A1A3617FBA65F00DB5607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DA844F2218A343A000A73BB7 /* OBRdatabase.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DA844F2318A343A000A73BB7 /* OBRdatabase.xcdatamodel */,
+			);
+			currentVersion = DA844F2318A343A000A73BB7 /* OBRdatabase.xcdatamodel */;
+			name = OBRdatabase.xcdatamodeld;
+			path = OahuBusRoutes/OBRdatabase.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DA2A19F717FBA65F00DB5607 /* Project object */;
+}
